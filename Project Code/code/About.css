@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+
+.Top_Nav{
+    background-color: rgb(62, 80, 90);
+    overflow: hidden;
+}
+
+.Top_Nav img{
+    width: 48px;
+    height: 48px;
+}
+
+#img_a{
+    padding: 0;
+}
+
+.Top_Nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .Top_Nav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+  }
+  
+  .Top_Nav a.active {
+    background-color: white;
+    color: rgb(62, 80, 90);
+  }
+
+  body{
+      text-align: center;
+  }
+
+  .TopImg_div{
+    width: 99.9%;
+    max-height: 35%;
+    min-height: 35%;
+    background-image: url("Resources/logoback.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    vertical-align: bottom;
+  }
+
+.Details_div{
+    margin: 5px;
+}
+
+.OwnerPicture{
+    background-image: url("Resources/personplaceholder.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 30%;
+}
+
+h1{
+    color: rgb(62, 80, 90);
+}

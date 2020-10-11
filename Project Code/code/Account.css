@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+
+.Top_Nav{
+    background-color: rgb(62, 80, 90);
+    overflow: hidden;
+}
+
+.Top_Nav img{
+    width: 48px;
+    height: 48px;
+}
+
+#img_a{
+    padding: 0;
+}
+
+.Top_Nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .Top_Nav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+  }
+  
+  .Top_Nav a.active {
+    background-color: rgb(57, 175, 149);
+    color: #ddd;
+  }
+
+.ProfilePage_div{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.img_div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+img{
+    width: 25%;
+    height: 35%;
+    border-radius: 50%;
+}
+
+.UserProfile_div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    margin-top: 10px;
+    width: 40%;
+}  
+
+.Row1{
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+#cart_btn{
+    width: 40%;
+    height: 35px;
+    margin: 8px;
+    color: white;
+    background-color: rgb(57, 175, 149);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cart_btn:hover{
+    background-color: rgb(62, 80, 90);
+    transition: ease-in-out 0.5s;
+}
+
+#edt_btn{
+    width: 40%;
+    height: 35px;
+    margin: 8px;
+    color: white;
+    background-color: rgb(57, 175, 149);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#edt_btn:hover{
+    background-color: rgb(62, 80, 90);
+    transition: ease-in-out 0.5s;
+}
+
+#logout_btn{
+    width: 40%;
+    height: 35px;
+    margin: 8px;
+    color: white;
+    background-color: rgb(57, 175, 149);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logout_btn:hover{
+    background-color: rgb(62, 80, 90);
+    transition: ease-in-out 0.5s;
+}
+
+.headname_div{
+    background-color:  rgb(205, 233, 227);
+    height: 8%;
+    padding: 5px;
+}
+
+.bodyset_div{
+    text-align: left;
+}
+
+.editprofile_div{
+    display: none;
+}

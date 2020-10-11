@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+
+.Top_Nav{
+    background-color: rgb(62, 80, 90);
+    overflow: hidden;
+}
+
+.Top_Nav img{
+    width: 48px;
+    height: 48px;
+}
+
+#img_a{
+    padding: 0;
+}
+
+.Top_Nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .Top_Nav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+  }
+  
+  .Top_Nav a.active {
+    background-color: rgb(57, 175, 149);
+    color: #ddd;
+  }
+
+  .main_div{
+    display: block;
+    text-align: center;
+  }
+
+  .products{
+    border: 1px solid black;
+    width: 35%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .product_div{
+    border: 1px solid black;
+    display: flex;
+    margin: 5px;
+    height: 23%;
+  }
+
+  .product_image{
+    border: solid lightgray 1px;
+    height: 99%;
+    width: 40%;
+    margin-right: 5px;
+  }
+
+  h1{
+    background-color: lightseagreen;
+  }
+
+  #product_name{
+    margin-top: 5px;
+  }
+
+  #basket_quantity{
+    bottom: 1px;
+  }
+
+  #order_btn{
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    border: none;
+    background-color: rgb(62, 80, 90);
+    border-radius: 3px;
+    width: 65px;
+    height: 25px;
+    margin: 5px;
+  }
+
+  #order_btn:hover{
+    background-color: rgb(57, 175, 149);
+  }
+
+  #cancelorder_btn{
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    border: none;
+    background-color: rgb(62, 80, 90);
+    border-radius: 3px;
+    width: 65px;
+    height: 25px;  
+    margin: 5px;
+  }
+
+  #cancelorder_btn:hover{
+    background-color: rgb(57, 175, 149);   
+  }

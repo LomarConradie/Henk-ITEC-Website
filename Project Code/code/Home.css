@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+}
+
+.Top_Nav{
+    background-color: rgb(62, 80, 90);
+    overflow: hidden;
+}
+
+.Top_Nav img{
+    width: 48px;
+    height: 48px;
+}
+
+#img_a{
+    padding: 0;
+}
+
+.Top_Nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .Top_Nav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+  }
+  
+  .Top_Nav a.active {
+    background-color: white;
+    color: rgb(62, 80, 90);;
+  }
+
+.TopPictures_div{
+    display: flex;
+    height: 55%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Col1{
+    width: 30%;
+}
+
+.Col2{
+    width: 45%;
+}
+
+.Col3{
+    width: 25%;
+}
+
+#LeftSide_img{
+    width: 98%;
+    height: 100%;
+}
+
+#Middle_img{
+    width: 100%;
+    height: 100%;
+}
+
+#RightSide_img{
+    width: 98%;
+    height: 100%;
+    float: right;
+}
+
+.MiddleBar_div{
+    display: flex;
+    text-align: center;
+    margin-right: 220px;
+    margin-left: 220px;
+    height: 25%;
+    margin-bottom: 20px;
+}
+
+.Account_div{
+    background-color: rgb(62, 80, 90);
+    width: 33.33%;
+    border: 1px solid white;
+    display: block;
+}
+
+.Account_div img{
+    margin-top: 15%;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+.Account_div a{
+    color: white;
+}
+
+.Account_div:hover{
+    background-color: rgb(101, 133, 150);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.Basket_div{
+    background-color: rgb(62, 80, 90);
+    width: 33.33%;
+    border: 1px solid white;
+    display: block;
+}
+
+.Basket_div img{
+    margin-top: 15%;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+.Basket_div a{
+    color: white;
+}
+
+.Basket_div:hover{
+    background-color: rgb(101, 133, 150);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.Showroom_div{
+    background-color: rgb(62, 80, 90);
+    width: 33.33%;
+    border: 1px solid white;
+    display: block;
+}
+
+.Showroom_div img{
+    margin-top: 15%;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+.Showroom_div a{
+    color: white;
+}
+
+.Showroom_div:hover{
+    background-color: rgb(101, 133, 150);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.BottomPictures_div{
+    display: flex;
+    height: 45%;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.BottomPictures_div h3{
+    color: rgb(62, 80, 90);
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.BottomPictures_div button{
+    margin-top: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    height: 35px;
+    width: 110px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.BottomPictures_div button:hover{
+    background-color: white;
+    color:  rgb(62, 80, 90);
+    transition: 0.5s;
+}
+
+.Pic{
+    width: 20%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 5px;
+    border: 0.5px solid rgb(62, 80, 90);      
+}
+
+.Pic1{
+    background-image: url("Resources/sofas.jpg");
+}
+
+.Pic2{
+    background-image: url("Resources/beds.jpg");  
+}
+
+.Pic3{
+    background-image: url("Resources/tabels.jpg");  
+}
+
+.Pic4{
+    background-image: url("Resources/accessories.jpg");  
+}
+
+.Pic5{
+    background-image: url("Resources/chairs.jpg");
+}
+
+  .Bottom_Nav{
+    bottom: 0;
+    background-color: rgb(62, 80, 90);
+    overflow: hidden;
+    height: 20%;
+}
